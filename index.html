@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britney | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SIDE PANEL (NAV + SOCIAL) -->
+    <div class="side-panel">
+        <!-- FLOATING NAVIGATION BUTTONS -->
+        <div class="nav-buttons">
+            <button onclick="scrollToSection('home')">🏠 Home</button>
+            <button onclick="scrollToSection('about')">👩‍💻 About</button>
+            <button onclick="scrollToSection('skills')">💻 Skills</button>
+            <button onclick="scrollToSection('contact')">✉️ Contact</button>
+        </div>
+
+        <!-- SOCIAL LINKS -->
+        <div class="floating-social">
+            <a href="https://github.com/brit2905" target="_blank" title="GitHub">🐱</a>
+            <a href="https://linkedin.com/in/britney-plaatjies-a10878254" target="_blank" title="LinkedIn">💼</a>
+            <a href="mailto:plaatjiesbritney2@gmail.com" title="Email">✉️</a>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="home">
+        <!-- FLOATING HEARTS -->
+        <div class="hearts">
+            <div class="heart" style="--i:1;"></div>
+            <div class="heart" style="--i:2;"></div>
+            <div class="heart" style="--i:3;"></div>
+            <div class="heart" style="--i:4;"></div>
+            <div class="heart" style="--i:5;"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="welcome">
+                🌸 Welcome to my Portfolio! 🌸
+            </div>
+
+            <!-- PROFILE IMAGE -->
+            <img src="images/profile.png" alt="Photo of Britney" class="profile-pic">
+
+            <!-- NAME AND TITLE -->
+            <h1>✨ Britney Plaatjies</h1>
+            <p class="title">Software Development Student</p>
+            <p class="subtitle">Java • Python • Web Development 💗</p>
+
+            <!-- HIRE BUTTON -->
+            <a href="mailto:plaatjiesbritney2@gmail.com" class="hire-button">💌 Hire Me</a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <h2>About Me 💖</h2>
+        <p>Hello! I’m Britney, a software development student learning Java, Python, and web development. 🎀</p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <h2>My Skills 💻</h2>
+        <div class="skill-cards">
+            <div class="card">Python</div>
+            <div class="card">Java</div>
+            <div class="card">HTML/CSS</div>
+            <div class="card">JavaScript</div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contact Me ✉️</h2>
+        <p>Email: plaatjiesbritney2@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/brit2905" target="_blank">🐱</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/britney-plaatjies-a10878254" target="_blank">💼</a></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Britney's Portfolio 💖</p>
+    </footer>
+
+    <!-- SMOOTH SCROLL SCRIPT -->
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
