@@ -84,6 +84,13 @@ body {
     position: relative;
 }
 
+.welcome {
+    font-size: 1.35rem;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    color: #3d3d3d;
+}
+
 /* PROFILE IMAGE */
 .profile-pic {
     width: 220px;
@@ -237,3 +244,34 @@ footer {
         height: 140px;
     }
 }
+/* Projects */
+.projects {
+    padding: 60px 20px;
+}
+.project-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+}
+.project-card {
+    background: #FFD6EC;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    text-align: left;
+}
+.project-card h3 {
+    margin-top: 0;
+    color: #FF69B4;
+}
+.project-card a {
+    color: #FF69B4;
+    font-weight: 600;
+    text-decoration: none;
+}
+.project-card a:hover {
+    text-decoration: underline;
+}
+
