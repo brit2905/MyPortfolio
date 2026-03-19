@@ -5,7 +5,7 @@
     <title>Britney | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/favicon.png">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -50,15 +50,26 @@
 
     <section class="skills" id="skills">
         <h2>My Skills 💻</h2>
-        <div class="skill-cards">
-            <div class="card">Python</div>
-            <div class="card">Java</div>
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">JavaScript</div>
-            <div class="card">SQL</div>
-            <div class="card">Git</div>
-            <div class="card">GitHub</div>
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <div class="card"><i class="devicon-python-plain colored"></i><p>Python</p></div>
+                <div class="card"><i class="devicon-java-plain colored"></i><p>Java</p></div>
+                <div class="card"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+                <div class="card"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+                <div class="card"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+                <div class="card"><i class="devicon-mysql-plain colored"></i><p>SQL</p></div>
+                <div class="card"><i class="devicon-git-plain colored"></i><p>Git</p></div>
+                <div class="card"><i class="devicon-github-original colored"></i><p>GitHub</p></div>
+                <!-- Duplicate set for seamless loop -->
+                <div class="card"><i class="devicon-python-plain colored"></i><p>Python</p></div>
+                <div class="card"><i class="devicon-java-plain colored"></i><p>Java</p></div>
+                <div class="card"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+                <div class="card"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+                <div class="card"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+                <div class="card"><i class="devicon-mysql-plain colored"></i><p>SQL</p></div>
+                <div class="card"><i class="devicon-git-plain colored"></i><p>Git</p></div>
+                <div class="card"><i class="devicon-github-original colored"></i><p>GitHub</p></div>
+            </div>
         </div>
     </section>
 
@@ -88,23 +99,49 @@
     <section class="profile" id="profile">
         <h2>🌟 Developer Profile 🌟</h2>
         <div class="profile-card">
+
             <h3>Technical Strength</h3>
-            <ul>
-                <li>Python - 95%</li>
-                <li>Java - 85%</li>
-                <li>Web Development - 92%</li>
-                <li>Database Management - 85%</li>
-                <li>Problem Solving - 98%</li>
-            </ul>
+            <div class="skill-bars">
+                <div class="skill-bar-item">
+                    <div class="skill-bar-label"><span>Python</span><span>95%</span></div>
+                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div>
+                </div>
+                <div class="skill-bar-item">
+                    <div class="skill-bar-label"><span>Java</span><span>85%</span></div>
+                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-bar-item">
+                    <div class="skill-bar-label"><span>Web Development</span><span>92%</span></div>
+                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
+                </div>
+                <div class="skill-bar-item">
+                    <div class="skill-bar-label"><span>Database Management</span><span>85%</span></div>
+                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-bar-item">
+                    <div class="skill-bar-label"><span>Problem Solving</span><span>98%</span></div>
+                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="98"></div></div>
+                </div>
+            </div>
 
             <h3>Tools & Technologies</h3>
-            <p>Git • GitHub • Linux • VS Code • Docker • Agile</p>
+            <div class="tools-grid">
+                <div class="tool-card"><i class="devicon-git-plain colored"></i><p>Git</p></div>
+                <div class="tool-card"><i class="devicon-github-original colored"></i><p>GitHub</p></div>
+                <div class="tool-card"><i class="devicon-linux-plain colored"></i><p>Linux</p></div>
+                <div class="tool-card"><i class="devicon-vscode-plain colored"></i><p>VS Code</p></div>
+                <div class="tool-card"><i class="devicon-docker-plain colored"></i><p>Docker</p></div>
+                <div class="tool-card">🔄<p>Agile</p></div>
+            </div>
 
             <h3>Personal Strengths</h3>
-            <p>✨ High work ethic</p>
-            <p>✨ Team collaboration</p>
-            <p>✨ Fast learner</p>
-            <p>✨ Creative thinker</p>
+            <div class="strengths-grid">
+                <div class="strength-card"><span>💪</span><p>High work ethic</p></div>
+                <div class="strength-card"><span>🤝</span><p>Team collaboration</p></div>
+                <div class="strength-card"><span>⚡</span><p>Fast learner</p></div>
+                <div class="strength-card"><span>🎨</span><p>Creative thinker</p></div>
+            </div>
+
         </div>
     </section>
 
